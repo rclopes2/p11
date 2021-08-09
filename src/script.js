@@ -37,7 +37,7 @@ const textureLoader = new THREE.TextureLoader(loadingManager)
 // const colorTexture = textureLoader.load('/textures/checkerboard-1024x1024.png')
 // const colorTexture = textureLoader.load('/textures/checkerboard-2x2.png')
 const colorTexture = textureLoader.load(
-    '/textures/minecraft.png',
+    '\minecraft.jpg',
     () =>
     {
         console.log('textureLoader: loading finished')
